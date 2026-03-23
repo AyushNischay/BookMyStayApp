@@ -11,15 +11,12 @@ abstract class Room {
         this.size = size;
         this.price = price;
     }
-
     public String getRoomType() {
         return roomType;
     }
-
     public int getBeds() {
         return beds;
     }
-
     public double getSize() {
         return size;
     }
@@ -115,7 +112,7 @@ class RoomSearchService {
     }
 }
 
-public class UseCase4RoomSearch {
+public class BookMyStay {
 
     public static void main(String[] args) {
 
